@@ -39,7 +39,7 @@ public class MainController implements Initializable {
     public void delete()
     {
 
-        ac.setText("AC");
+        ac.setText("Ac");
         display.setText("0");
         for (int i=0 ; i<2 ; i++)
         {
@@ -70,6 +70,7 @@ public class MainController implements Initializable {
                 operatorValues[3]=true;
                 break;
            default:
+               System.out.println("");
 
 
         }
