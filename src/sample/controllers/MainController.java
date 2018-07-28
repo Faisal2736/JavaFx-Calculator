@@ -70,11 +70,10 @@ public class MainController implements Initializable {
                 operatorValues[3]=true;
                 break;
            default:
-               System.out.println("");
+
 
 
         }
-        display.setText("");
 
     }
     public void result() {
